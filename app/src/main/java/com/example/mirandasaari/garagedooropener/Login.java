@@ -70,6 +70,7 @@ public class Login extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         if(view.getId()==R.id.loginButton && flag==0) {
             Intent intent = new Intent(Login.this, MainActivity.class);
+            startActivity(intent);
         }
     }
 }
